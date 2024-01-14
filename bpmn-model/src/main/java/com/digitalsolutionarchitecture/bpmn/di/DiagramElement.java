@@ -1,0 +1,15 @@
+package com.digitalsolutionarchitecture.bpmn.di;
+
+public class DiagramElement {
+
+	private String id;
+
+	public DiagramElement(String id) {
+		this.id = id;
+	}
+	
+	public String getId() {
+		return id;
+	}
+	
+}
